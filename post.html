@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <meta charset="utf-8">
+     <title>Rubic Cube Forum</title>
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" type="text/css" href="css/comments.css">
+     <link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
+     <script   src="https://code.jquery.com/jquery-1.12.3.min.js"   integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ="   crossorigin="anonymous"></script>
+		
+		<script src="js/main.js"> </script>
+        <script src="js/comments.js"> </script>
+ </head>
+         <body>
+             <header></header>
+<!----------------------------          navigation            --------------------------->
+             <nav>
+                 <ul>
+                     <li id="logo"><a href="index.html">Rubic Cube</a></li>
+                     <li><a href="tutorial.html">TUTORIAL</a></li>
+                     <li><a href="index.html">SHOP</a></li>
+                     <li><a href="forum.html">FORUM</a></li><li><a href="about.html">ABOUT</a></li>               
+                     <li class= "login"><a href="store.html">SIGN UP</a></li>
+                     <li class= "login"><a href="store.html">LOGIN</a></li>
+                 
+                 </ul>
+             </nav>
+ 
+<!--------------          forum post            ---------------------------> 
+<!----------------------------          post 1         --------------------------->
+             <div class="topictitle">
+                 <p>How to start the Rubic cube</p>
+             </div>
+             
+             <p class="posttitle">Post title</p>
+             
+             <div class="userdetailarea">
+                 <table class="userdetail">
+                 
+                     <td><img id="usericon" src="images/headicon.jpg" alt="user icon">
+                         <br><p> Name:username</p>
+                         <p> ID:4321543<p>
+                         <p>Data:04/05/17</p>
+                     </td>
+                        </table>
+             </div>
+             
+             <div class="postcontent">
+                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+             </div>
+             
+                 
+<!--------------          comments            --------------------------->                 
+        <div class="commentsarea">   
+           <form id="newCommentForm" method="post">
+				<div class="newCommentInputs">
+					<label for="commentName">name</label><input type="text" id="commentNameInput" name="commentNameInput">
+						<label for="commentMessage">message</label><textarea id="commentMessageInput" ></textarea>
+				
+					<input type="submit" value="Submit" />
+					</div>
+					<div style="clear:both;"></div>
+			</form>
+			<section id="comments">
+				<div id="commentsContainer">
+					<div class="comment">
+						<div class="deleteComment">delete</div>
+						<div class="commentLeft">
+							<div class="commentImage" style="background-image:url(images/po.jpg);"></div>
+						</div>
+						<div class="commentContent">
+							<p class="commentName">Holly</p>
+							<p class="commentAge">a few hours ago</p>
+							<p class="commentMessage"> I love study, study makes me feel happy </p>
+						</div>
+						<div style="clear:both;"></div>
+					</div>
+				</div>
+			</section>
+			<section id="siteTemplates">
+				<div id="comment_template">
+					<div class="comment">
+						<div class="deleteComment">delete</div>
+						<div class="commentLeft">
+							<div class="commentImage" style="background-image:url(images/sun.jpg);"></div>
+						</div>
+						<div class="commentContent">
+							<p class="commentName">Name</p>
+							<p class="commentAge">Time</p>
+							<p class="commentMessage">Content</p>
+						</div>
+						<div style="clear:both;"></div>
+					</div>
+				</div>
+			</section>
+			<script type="text/javascript" src="js/comments.js"> </script>
+        </div>
+        
+ 
+           
+  <!---------------------------             footer  -------------------------->           
+             
+             <footer>
+                <p>Posted by: Team Name</p>
+                <p>Contact information: <a href="">someone@example.com</a>.</p>
+             </footer>                      
+         </body>
+</html>

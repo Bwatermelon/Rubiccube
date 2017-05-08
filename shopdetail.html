@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <meta charset="utf-8">
+     <title>Rubic Cube Forum</title>
+     <link rel="stylesheet" href="css/style.css">
+     <link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
+     <script   src="https://code.jquery.com/jquery-1.12.3.min.js"   integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ="   crossorigin="anonymous"></script>
+		
+		<script src="js/main.js"> </script>
+ </head>
+         <body>
+             <header></header>
+<!----------------------------          navigation            --------------------------->
+             <nav>
+                 <ul>
+                     <li id="logo"><a href="index.html">Rubic Cube</a></li>
+                     <li><a href="tutorial.html">TUTORIAL</a></li>
+                     <li><a href="index.html">SHOP</a></li>
+                     <li><a href="forum.html">FORUM</a></li><li><a href="about.html">ABOUT</a></li>               
+                     <li class= "login"><a href="store.html">SIGN UP</a></li>
+                     <li class= "login"><a href="store.html">LOGIN</a></li>
+                 
+                 </ul>
+             </nav>
+ 
+<!-------------          shop detail            ---------------------------> 
+
+            <img class="shopimg" src="images/timg.jpg" alt="shop img">
+             
+             <table class="payinfo">
+                 <tr>
+                     <td colspan="5"><p class="shopname">Rubic Cube</p></td>
+                 </tr>
+<!-------------          count number of the items            --------------------------->                  
+                 <tr>
+                     <td class="countprice"><p>Quantity:</p></td>
+                     
+                     <td><p id="down" onclick="minus();">-</p></td>
+                     <td><input type="text" id="num" value="1" onkeyup="check();"></td>
+                         <td><p id="up" onclick="add();">+<p></td>
+                        <td> <p>&nbsp;&nbsp;&nbsp;20.00</p></td>
+                     
+                 </tr>
+                 <tr>
+                     <td><button class="buy" type="button">Add to Cart</button></td>
+                 </tr>
+             </table>
+             <p class="itemdetail">ITEM DETAIL</p>
+             <p class="itemdescription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+             
+             
+           
+        
+ 
+           
+  <!---------------------------             footer  -------------------------->           
+             
+             <footer>
+                <p>Posted by: Team Name</p>
+                <p>Contact information: <a href="">someone@example.com</a>.</p>
+             </footer>                      
+         </body>
+</html>
